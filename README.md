@@ -1,4 +1,4 @@
-# 🚀 Advanced Binance Futures Trading Bot (Testnet)
+# Advanced Binance Futures Trading Bot (Testnet)
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -12,7 +12,7 @@ A robust, modular, and AI-enhanced Python application designed for high-precisio
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
 *   **🖥️ Dual-Interface Support**: Switch between a high-speed **CLI** and a professional **Streamlit Web Dashboard**.
 *   **🧠 Agentic Decision Making**: An AI Agent layer that analyzes financial context (Hugging Face) to generate trading signals autonomously.
@@ -22,7 +22,7 @@ A robust, modular, and AI-enhanced Python application designed for high-precisio
 
 ---
 
-## 🤖 Agentic Architecture
+##  Agentic Architecture
 
 The bot follows a **Perceive-Reason-Act** agentic loop, allowing it to move beyond static execution into informed decision-making.
 
@@ -40,7 +40,7 @@ graph TD
 
 ---
 
-## 🏗️ System Design
+##  System Design
 
 The system is designed with a layered architecture to ensure scalability and ease of testing.
 
@@ -63,7 +63,7 @@ sequenceDiagram
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 binance_trading_bot/
@@ -82,7 +82,7 @@ binance_trading_bot/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Installation
 
@@ -132,13 +132,13 @@ python3 cli.py ai-trade BTCUSDT 0.001 "News Context Here"
 
 ---
 
-## 🛡️ Enterprise Logging & Security
+##  Enterprise Logging & Security
 
 *   **Auditing**: All operations are recorded in `logs/trading_bot.log` using a `RotatingFileHandler`.
 *   **Security**: API keys are handled strictly via environment variables. Request signing is done locally via HMAC-SHA256, ensuring secrets never leave your machine.
 
 ---
 
-## ⚖️ Disclaimer
+##  Disclaimer
 
 *This software is for educational purposes only. Trading involves risk. Use the Testnet for all testing.*
