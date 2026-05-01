@@ -4,8 +4,11 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Binance](https://img.shields.io/badge/Binance-Testnet-orange.svg)](https://testnet.binancefuture.com)
 [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97-Hugging%20Face-ffcc00.svg)](https://huggingface.co/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://gyanprakash136-trading-agent-app-anotyp.streamlit.app/)
 
 A robust, modular, and AI-enhanced Python application designed for high-precision trading on the **Binance Futures Testnet (USDT-M)**. This bot combines industrial-grade API integration with a modern CLI and cutting-edge sentiment analysis powered by Hugging Face.
+
+**🔗 Live Demo**: [Explore the Agentic Dashboard](https://gyanprakash136-trading-agent-app-anotyp.streamlit.app/)
 
 ---
 
