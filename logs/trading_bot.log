@@ -1,0 +1,207 @@
+2026-05-01 19:46:01,253 - trading_bot - INFO - BinanceTestnetClient initialized.
+2026-05-01 19:46:01,254 - trading_bot - INFO - Placing MARKET BUY order for 0.001 BTCUSDT at MARKET
+2026-05-01 19:46:01,254 - trading_bot - DEBUG - Dispatching POST request to /fapi/v1/order
+2026-05-01 19:46:02,408 - trading_bot - ERROR - HTTPError: API Error -2015: Invalid API-key, IP, or permissions for action
+2026-05-01 19:46:02,408 - trading_bot - ERROR - Failed to execute trade: API Error -2015: Invalid API-key, IP, or permissions for action
+2026-05-01 19:53:37,822 - trading_bot - INFO - BinanceTestnetClient initialized.
+2026-05-01 19:53:37,822 - trading_bot - INFO - Placing MARKET BUY order for 0.001 BTCUSDT at MARKET
+2026-05-01 19:53:37,822 - trading_bot - DEBUG - Dispatching POST request to /fapi/v1/order
+2026-05-01 19:53:38,404 - trading_bot - ERROR - HTTPError: API Error -2015: Invalid API-key, IP, or permissions for action
+2026-05-01 19:53:38,405 - trading_bot - ERROR - Failed to execute trade: API Error -2015: Invalid API-key, IP, or permissions for action
+2026-05-01 19:53:47,106 - trading_bot - INFO - BinanceTestnetClient initialized.
+2026-05-01 19:53:47,106 - trading_bot - INFO - Placing MARKET BUY order for 0.001 BTCUSDT at MARKET
+2026-05-01 19:53:47,106 - trading_bot - DEBUG - Dispatching POST request to /fapi/v1/order
+2026-05-01 19:53:47,492 - trading_bot - ERROR - HTTPError: API Error -2015: Invalid API-key, IP, or permissions for action
+2026-05-01 19:53:47,492 - trading_bot - ERROR - Failed to execute trade: API Error -2015: Invalid API-key, IP, or permissions for action
+2026-05-01 19:57:14,199 - trading_bot - INFO - BinanceTestnetClient initialized.
+2026-05-01 19:57:14,199 - trading_bot - INFO - Placing MARKET BUY order for 0.001 BTCUSDT at MARKET
+2026-05-01 19:57:14,199 - trading_bot - DEBUG - Dispatching POST request to /fapi/v1/order
+2026-05-01 19:57:14,574 - trading_bot - DEBUG - Received response: 200
+2026-05-01 19:57:14,574 - trading_bot - INFO - Order successful. ID: 13096725700, Status: NEW
+2026-05-01 19:57:44,193 - trading_bot - INFO - BinanceTestnetClient initialized.
+2026-05-01 19:57:44,193 - trading_bot - INFO - Placing LIMIT SELL order for 0.001 BTCUSDT at 90000.0
+2026-05-01 19:57:44,193 - trading_bot - DEBUG - Dispatching POST request to /fapi/v1/order
+2026-05-01 19:57:45,010 - trading_bot - DEBUG - Received response: 200
+2026-05-01 19:57:45,011 - trading_bot - INFO - Order successful. ID: 13096726760, Status: NEW
+2026-05-01 19:59:37,009 - trading_bot - WARNING - HUGGINGFACE_API_KEY not found. Inference might fail or be rate limited.
+2026-05-01 19:59:37,010 - trading_bot - INFO - Analyzing sentiment for: 'Bitcoin hits all-time high as institutions buy in'
+2026-05-01 19:59:38,300 - trading_bot - ERROR - Hugging Face Inference failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/hf-inference/models/mrm8488/distilroberta-finetuned-financial-news-sentiment-analysis' (Amz CF ID: i-YcjhdHAs2UhFaPaT3mH01V4MQRVSk8PXPGBzJgyBKk2xJ7Wo1gfw==)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-05-01 20:05:16,212 - trading_bot - INFO - Analyzing sentiment for: 'Bitcoin hits all-time high as institutions buy in'
+2026-05-01 20:05:22,026 - trading_bot - INFO - Sentiment Analysis Result: positive (Confidence: 1.00)
+2026-05-01 20:05:27,198 - trading_bot - INFO - BinanceTestnetClient initialized.
+2026-05-01 20:05:27,198 - trading_bot - INFO - Placing MARKET BUY order for 0.001 BTCUSDT at MARKET
+2026-05-01 20:05:27,198 - trading_bot - DEBUG - Dispatching POST request to /fapi/v1/order
+2026-05-01 20:05:27,984 - trading_bot - DEBUG - Received response: 200
+2026-05-01 20:05:27,984 - trading_bot - INFO - Order successful. ID: 13096746062, Status: NEW
+2026-05-01 20:11:14,250 - trading_bot - INFO - BinanceTestnetClient initialized.
+2026-05-01 20:11:14,250 - trading_bot - INFO - Placing MARKET SELL order for 0.015 BTCUSDT at MARKET
+2026-05-01 20:11:14,250 - trading_bot - DEBUG - Dispatching POST request to /fapi/v1/order
+2026-05-01 20:11:14,978 - trading_bot - DEBUG - Received response: 200
+2026-05-01 20:11:14,978 - trading_bot - INFO - Order successful. ID: 13096759835, Status: NEW
+2026-05-01 20:11:36,638 - trading_bot - INFO - Analyzing sentiment for: 'hey i think market will go down 
+'
+2026-05-01 20:11:46,027 - trading_bot - INFO - Sentiment Analysis Result: negative (Confidence: 1.00)
+2026-05-01 20:12:10,441 - trading_bot - INFO - Analyzing sentiment for: 'hey i think market will go down  , can you tell what is the reason 
+
+'
+2026-05-01 20:12:10,957 - trading_bot - INFO - Sentiment Analysis Result: negative (Confidence: 1.00)
+2026-05-01 20:16:51,027 - trading_bot - INFO - Analyzing sentiment and reasoning for: 'hey i am thinking to invest , but i am new to investing so can you guide me to invest in some of the commodity such that my profit can be made 
+
+'
+2026-05-01 20:16:51,494 - trading_bot - ERROR - Reasoning analysis failed: Model meta-llama/Llama-3.2-3B-Instruct is not supported for task text-generation and provider featherless-ai. Supported task: conversational.
+2026-05-01 20:17:35,069 - trading_bot - INFO - Analyzing sentiment and reasoning for: 'hey i am thinking to invest , but i am new to investing so can you guide me to invest in some of the commodity such that my profit can be made 
+
+'
+2026-05-01 20:17:35,610 - trading_bot - ERROR - Reasoning analysis failed: (Request ID: Root=1-69f4bd07-5b01f0642cd406d05853479e;33b53966-fe92-4743-9ed6-ba5323d6d4c0)
+
+Bad request:
+{'message': "The requested model 'meta-llama/Llama-3.2-3B-Instruct' is not supported by any provider you have enabled.", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}
+2026-05-01 20:17:59,533 - trading_bot - INFO - BinanceTestnetClient initialized.
+2026-05-01 20:17:59,534 - trading_bot - INFO - Placing MARKET BUY order for 1.0 BTCUSDT at MARKET
+2026-05-01 20:17:59,534 - trading_bot - DEBUG - Dispatching POST request to /fapi/v1/order
+2026-05-01 20:17:59,977 - trading_bot - DEBUG - Received response: 200
+2026-05-01 20:17:59,977 - trading_bot - INFO - Order successful. ID: 13096775435, Status: NEW
+2026-05-01 20:18:13,659 - trading_bot - INFO - Analyzing sentiment and reasoning for: 'hey i am thinking to invest , but i am new to investing so can you guide me to invest in some of the commodity such that my profit can be made 
+
+'
+2026-05-01 20:18:14,185 - trading_bot - ERROR - Reasoning analysis failed: Model mistralai/Mistral-7B-Instruct-v0.3 is not supported for task text-generation and provider novita. Supported task: conversational.
+2026-05-01 20:20:36,510 - trading_bot - INFO - Initiating Multi-Agent Parallel Analysis for: 'hey i am thinking to invest in the cryptocurrency which commodity to invest such that after one month i have some profit
+'
+2026-05-01 20:20:37,032 - trading_bot - ERROR - Multi-Agent Analysis failed: Model mistralai/Mistral-7B-Instruct-v0.3 is not supported for task text-generation and provider novita. Supported task: conversational.
+2026-05-01 20:21:12,179 - trading_bot - INFO - Initiating Multi-Agent Parallel Analysis for: 'hey i am thinking to invest in the cryptocurrency which commodity to invest such that after one month i have some profit
+'
+2026-05-01 20:21:12,820 - trading_bot - ERROR - Multi-Agent Analysis failed: (Request ID: Root=1-69f4bde0-57fffb7c07dc3b8f33901b8f;5f986d00-a706-4bce-80c0-883ab825f06e)
+
+Bad request:
+{'message': "The requested model 'mistralai/Mistral-7B-Instruct-v0.3' is not a chat model.", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}
+2026-05-01 20:21:17,664 - trading_bot - INFO - Initiating Multi-Agent Parallel Analysis for: 'hey i am thinking to invest in the cryptocurrency which commodity to invest such that after one month i have some profit
+'
+2026-05-01 20:21:17,981 - trading_bot - ERROR - Multi-Agent Analysis failed: (Request ID: Root=1-69f4bde5-247b7d6821448f8a57ac2e14;a1c539d6-45ff-4ea9-9afe-e1eec241dab6)
+
+Bad request:
+{'message': "The requested model 'mistralai/Mistral-7B-Instruct-v0.3' is not a chat model.", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}
+2026-05-01 20:21:21,091 - trading_bot - INFO - Initiating Multi-Agent Parallel Analysis for: 'hey i am thinking to invest in the cryptocurrency which commodity to invest such that after one month i have some profit
+'
+2026-05-01 20:21:21,389 - trading_bot - ERROR - Multi-Agent Analysis failed: (Request ID: Root=1-69f4bde9-2a4d824e18905b3a22993575;9f5f6cc4-4ebc-4541-ae08-0d96743ae9f5)
+
+Bad request:
+{'message': "The requested model 'mistralai/Mistral-7B-Instruct-v0.3' is not a chat model.", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}
+2026-05-01 20:21:21,966 - trading_bot - INFO - Initiating Multi-Agent Parallel Analysis for: 'hey i am thinking to invest in the cryptocurrency which commodity to invest such that after one month i have some profit
+'
+2026-05-01 20:21:22,280 - trading_bot - ERROR - Multi-Agent Analysis failed: (Request ID: Root=1-69f4bdea-10c7eb4b7abedbff69ec7be2;9cf99afa-e540-4507-93f1-524d44903c41)
+
+Bad request:
+{'message': "The requested model 'mistralai/Mistral-7B-Instruct-v0.3' is not a chat model.", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}
+2026-05-01 20:21:22,356 - trading_bot - INFO - Initiating Multi-Agent Parallel Analysis for: 'hey i am thinking to invest in the cryptocurrency which commodity to invest such that after one month i have some profit
+'
+2026-05-01 20:21:22,559 - trading_bot - INFO - Initiating Multi-Agent Parallel Analysis for: 'hey i am thinking to invest in the cryptocurrency which commodity to invest such that after one month i have some profit
+'
+2026-05-01 20:21:22,655 - trading_bot - ERROR - Multi-Agent Analysis failed: (Request ID: Root=1-69f4bdea-60c725746cf2c3be304a3808;e421abba-0501-4ce4-9544-ccd75c5498de)
+
+Bad request:
+{'message': "The requested model 'mistralai/Mistral-7B-Instruct-v0.3' is not a chat model.", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}
+2026-05-01 20:21:22,959 - trading_bot - ERROR - Multi-Agent Analysis failed: (Request ID: Root=1-69f4bdea-5677814f77360e1540639edc;27c395c7-97e0-44bd-acca-0f5e94578b50)
+
+Bad request:
+{'message': "The requested model 'mistralai/Mistral-7B-Instruct-v0.3' is not a chat model.", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}
+2026-05-01 20:21:23,116 - trading_bot - INFO - Initiating Multi-Agent Parallel Analysis for: 'hey i am thinking to invest in the cryptocurrency which commodity to invest such that after one month i have some profit
+'
+2026-05-01 20:21:23,425 - trading_bot - ERROR - Multi-Agent Analysis failed: (Request ID: Root=1-69f4bdeb-0173e2b32ac535037c4e7480;317c1500-8acf-458f-bd58-e918d475f37a)
+
+Bad request:
+{'message': "The requested model 'mistralai/Mistral-7B-Instruct-v0.3' is not a chat model.", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}
+2026-05-01 20:21:23,489 - trading_bot - INFO - Initiating Multi-Agent Parallel Analysis for: 'hey i am thinking to invest in the cryptocurrency which commodity to invest such that after one month i have some profit
+'
+2026-05-01 20:21:23,721 - trading_bot - INFO - Initiating Multi-Agent Parallel Analysis for: 'hey i am thinking to invest in the cryptocurrency which commodity to invest such that after one month i have some profit
+'
+2026-05-01 20:21:23,784 - trading_bot - ERROR - Multi-Agent Analysis failed: (Request ID: Root=1-69f4bdeb-454dc1370409f97908412dda;9b58c306-1db1-4c02-86a1-71cee4b0c7a6)
+
+Bad request:
+{'message': "The requested model 'mistralai/Mistral-7B-Instruct-v0.3' is not a chat model.", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}
+2026-05-01 20:21:24,046 - trading_bot - ERROR - Multi-Agent Analysis failed: (Request ID: Root=1-69f4bdeb-1edbccb444ab24bb740cfd01;718d0fec-685d-46a6-9398-b28a6d83af05)
+
+Bad request:
+{'message': "The requested model 'mistralai/Mistral-7B-Instruct-v0.3' is not a chat model.", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}
+2026-05-01 20:21:55,238 - trading_bot - INFO - Initiating Multi-Agent Parallel Analysis for: 'hey i am thinking to invest in the cryptocurrency which commodity to invest such that after one month i have some profit
+'
+2026-05-01 20:21:55,859 - trading_bot - INFO - Initiating Multi-Agent Parallel Analysis for: 'hey i am thinking to invest in the cryptocurrency which commodity to invest such that after one month i have some profit
+'
+2026-05-01 20:21:56,103 - trading_bot - INFO - Initiating Multi-Agent Parallel Analysis for: 'hey i am thinking to invest in the cryptocurrency which commodity to invest such that after one month i have some profit
+'
+2026-05-01 20:21:56,978 - trading_bot - INFO - Initiating Multi-Agent Parallel Analysis for: 'hey i am thinking to invest in the cryptocurrency which commodity to invest such that after one month i have some profit
+'
+2026-05-01 20:22:14,918 - trading_bot - INFO - Initiating Multi-Agent Parallel Analysis for: 'hey i am thinking to invest in the cryptocurrency which commodity to invest such that after one month i have some profit
+'
+2026-05-01 20:24:58,705 - trading_bot - INFO - Initiating Multi-Agent Parallel Analysis for: 'execute trade of 100 btcusdt 
+'
+2026-05-01 20:25:11,122 - trading_bot - INFO - Initiating Multi-Agent Parallel Analysis for: 'execute trade of 100 btcusdt 
+'
+2026-05-01 20:25:12,129 - trading_bot - ERROR - Multi-Agent Analysis failed: Extra data: line 9 column 1 (char 920)
+2026-05-01 20:25:14,753 - trading_bot - INFO - Initiating Multi-Agent Parallel Analysis for: 'execute trade of 100 btcusdt 
+'
+2026-05-01 20:25:37,523 - trading_bot - INFO - Initiating Multi-Agent Parallel Analysis for: 'execute trade of 100 btcusdt 
+'
+2026-05-01 20:25:39,489 - trading_bot - INFO - Initiating Multi-Agent Parallel Analysis for: 'execute trade of 100 btcusdt 
+'
+2026-05-01 20:25:41,582 - trading_bot - INFO - Initiating Multi-Agent Parallel Analysis for: 'execute trade of 100 btcusdt 
+'
+2026-05-01 20:25:42,326 - trading_bot - INFO - Initiating Multi-Agent Parallel Analysis for: 'execute trade of 100 btcusdt 
+'
+2026-05-01 20:25:43,124 - trading_bot - INFO - Initiating Multi-Agent Parallel Analysis for: 'execute trade of 100 btcusdt 
+'
+2026-05-01 20:25:44,016 - trading_bot - ERROR - Multi-Agent Analysis failed: Extra data: line 9 column 1 (char 617)
+2026-05-01 20:25:44,736 - trading_bot - INFO - Initiating Multi-Agent Parallel Analysis for: 'execute trade of 100 btcusdt 
+'
+2026-05-01 20:25:45,408 - trading_bot - ERROR - Multi-Agent Analysis failed: Extra data: line 9 column 1 (char 639)
+2026-05-01 20:25:45,698 - trading_bot - INFO - Initiating Multi-Agent Parallel Analysis for: 'execute trade of 100 btcusdt 
+'
+2026-05-01 20:26:14,734 - trading_bot - INFO - BinanceTestnetClient initialized.
+2026-05-01 20:26:14,734 - trading_bot - INFO - Placing MARKET BUY order for 0.0001 BTCUSDT at MARKET
+2026-05-01 20:26:14,734 - trading_bot - DEBUG - Dispatching POST request to /fapi/v1/order
+2026-05-01 20:26:15,320 - trading_bot - ERROR - HTTPError: API Error -4164: Order's notional must be no smaller than 50 (unless you choose reduce only).
+2026-05-01 20:26:15,320 - trading_bot - ERROR - Failed to execute trade: API Error -4164: Order's notional must be no smaller than 50 (unless you choose reduce only).
+2026-05-01 20:26:21,015 - trading_bot - INFO - BinanceTestnetClient initialized.
+2026-05-01 20:26:21,016 - trading_bot - INFO - Placing MARKET BUY order for 0.0001 BTCUSDT at MARKET
+2026-05-01 20:26:21,016 - trading_bot - DEBUG - Dispatching POST request to /fapi/v1/order
+2026-05-01 20:26:21,376 - trading_bot - ERROR - HTTPError: API Error -4164: Order's notional must be no smaller than 50 (unless you choose reduce only).
+2026-05-01 20:26:21,376 - trading_bot - ERROR - Failed to execute trade: API Error -4164: Order's notional must be no smaller than 50 (unless you choose reduce only).
+2026-05-01 20:26:22,259 - trading_bot - INFO - BinanceTestnetClient initialized.
+2026-05-01 20:26:22,260 - trading_bot - INFO - Placing MARKET BUY order for 0.0001 BTCUSDT at MARKET
+2026-05-01 20:26:22,260 - trading_bot - DEBUG - Dispatching POST request to /fapi/v1/order
+2026-05-01 20:26:22,629 - trading_bot - ERROR - HTTPError: API Error -4164: Order's notional must be no smaller than 50 (unless you choose reduce only).
+2026-05-01 20:26:22,630 - trading_bot - ERROR - Failed to execute trade: API Error -4164: Order's notional must be no smaller than 50 (unless you choose reduce only).
+2026-05-01 20:27:13,876 - trading_bot - INFO - BinanceTestnetClient initialized.
+2026-05-01 20:27:13,876 - trading_bot - INFO - Placing MARKET BUY order for 0.0001 BTCUSDT at MARKET
+2026-05-01 20:27:13,876 - trading_bot - DEBUG - Dispatching POST request to /fapi/v1/order
+2026-05-01 20:27:14,208 - trading_bot - ERROR - HTTPError: API Error -4164: Order's notional must be no smaller than 50 (unless you choose reduce only).
+2026-05-01 20:27:14,209 - trading_bot - ERROR - Order size too small! Binance Futures requires a minimum 'Notional Value' of 50 USDT. Try increasing your quantity (e.g., 0.01 instead of 0.001).
+2026-05-01 20:27:18,463 - trading_bot - INFO - BinanceTestnetClient initialized.
+2026-05-01 20:27:18,463 - trading_bot - INFO - Placing MARKET BUY order for 0.0001 BTCUSDT at MARKET
+2026-05-01 20:27:18,463 - trading_bot - DEBUG - Dispatching POST request to /fapi/v1/order
+2026-05-01 20:27:18,828 - trading_bot - ERROR - HTTPError: API Error -4164: Order's notional must be no smaller than 50 (unless you choose reduce only).
+2026-05-01 20:27:18,828 - trading_bot - ERROR - Order size too small! Binance Futures requires a minimum 'Notional Value' of 50 USDT. Try increasing your quantity (e.g., 0.01 instead of 0.001).
+2026-05-01 20:27:28,103 - trading_bot - INFO - BinanceTestnetClient initialized.
+2026-05-01 20:27:28,103 - trading_bot - INFO - Placing MARKET BUY order for 1.0 BTCUSDT at MARKET
+2026-05-01 20:27:28,104 - trading_bot - DEBUG - Dispatching POST request to /fapi/v1/order
+2026-05-01 20:27:28,429 - trading_bot - ERROR - HTTPError: API Error -2019: Margin is insufficient.
+2026-05-01 20:27:28,429 - trading_bot - ERROR - Failed to execute trade: API Error -2019: Margin is insufficient.
+2026-05-01 20:33:33,590 - trading_bot - INFO - BinanceTestnetClient initialized.
+2026-05-01 20:33:33,590 - trading_bot - INFO - Placing MARKET BUY order for 1.0 BTCUSDT at MARKET
+2026-05-01 20:33:33,590 - trading_bot - DEBUG - Dispatching POST request to /fapi/v1/order
+2026-05-01 20:33:34,121 - trading_bot - ERROR - HTTPError: API Error -2019: Margin is insufficient.
+2026-05-01 20:33:34,122 - trading_bot - ERROR - Failed to execute trade: API Error -2019: Margin is insufficient.
+2026-05-01 20:33:40,784 - trading_bot - INFO - BinanceTestnetClient initialized.
+2026-05-01 20:33:40,785 - trading_bot - INFO - Placing MARKET BUY order for 0.005 BTCUSDT at MARKET
+2026-05-01 20:33:40,785 - trading_bot - DEBUG - Dispatching POST request to /fapi/v1/order
+2026-05-01 20:33:41,546 - trading_bot - DEBUG - Received response: 200
+2026-05-01 20:33:41,546 - trading_bot - INFO - Order successful. ID: 13096813462, Status: NEW
+2026-05-01 20:34:03,550 - trading_bot - INFO - Initiating Multi-Agent Parallel Analysis for: 'hey place order of 0.005 quantity of BTCUSDT
+'
+2026-05-01 20:34:14,237 - trading_bot - INFO - BinanceTestnetClient initialized.
+2026-05-01 20:34:14,237 - trading_bot - INFO - Placing MARKET BUY order for 0.005 BTCUSDT at MARKET
+2026-05-01 20:34:14,238 - trading_bot - DEBUG - Dispatching POST request to /fapi/v1/order
+2026-05-01 20:34:14,611 - trading_bot - DEBUG - Received response: 200
+2026-05-01 20:34:14,611 - trading_bot - INFO - Order successful. ID: 13096814886, Status: NEW
+2026-05-01 20:35:22,059 - trading_bot - INFO - Initiating Multi-Agent Parallel Analysis for: 'hey place order of 0.005 quantity of BTCUSDT
+'
